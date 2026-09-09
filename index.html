@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amune</title>
+<meta name="description" content="Amune &mdash; AI engineering studio. Computer vision, predictive analytics, agentic AI, automation, LLMs, and audio intelligence.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Corinthian&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="grainFilter">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+</svg>
+<svg class="grain"><rect width="100%" height="100%" filter="url(#grainFilter)"/></svg>
+<div class="scanline"></div>
+
+<div class="corner corner--tl"></div>
+<div class="corner corner--tr"></div>
+<div class="corner corner--bl"></div>
+<div class="corner corner--br"></div>
+
+<div class="cursor" id="cursor"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="wordmark">Amune</div>
+    <nav class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#mule">Mule</a>
+      <a href="#method">Method</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-photo"></div>
+    <div class="hero-xray"></div>
+    <div class="hero-frame"></div>
+    <div class="hero-reticle"></div>
+    <div class="hero-scrim"></div>
+    <span class="hero-tag mono"><span class="dot"></span>HOVER TO SCAN</span>
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="spark">&#10022;</span>AI ENGINEERING&nbsp;/&nbsp;CREATIVE&nbsp;STUDIO</p>
+        <h1>Where<br>data learns<br><em>to bloom</em></h1>
+        <p class="hero-sub">Amune is a small AI practice &mdash; vision, prediction, and agents, dressed up pretty. Got a <em>mule</em> hiding in there?</p>
+        <div class="hero-tags">
+          <span class="tag">COMPUTER VISION</span>
+          <span class="tag">PREDICTIVE ANALYTICS</span>
+          <span class="tag">AGENTIC AI</span>
+          <span class="tag">AUTOMATION</span>
+          <span class="tag">LLMS</span>
+          <span class="tag">AUDIO INTELLIGENCE</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>The&nbsp;Work</h2>
+        <p class="eyebrow mono">06 SPECIMENS ON FILE</p>
+      </div>
+
+      <div class="work-grid">
+        <article class="specimen">
+          <span class="specimen-index mono">SPECIMEN&nbsp;01</span>
+          <h3>Computer Vision</h3>
+          <p class="caption-line">Teaching machines to really look, not just glance.</p>
+          <span class="tag">DETECTION &middot; SEGMENTATION</span>
+        </article>
+
+        <article class="specimen">
+          <span class="specimen-index mono">SPECIMEN&nbsp;02</span>
+          <h3>Predictive Analytics</h3>
+          <p class="caption-line">Reading tomorrow off the shape of today.</p>
+          <span class="tag">FORECASTING &middot; RISK</span>
+        </article>
+
+        <article class="specimen">
+          <span class="specimen-index mono">SPECIMEN&nbsp;03</span>
+          <h3>Agentic AI</h3>
+          <p class="caption-line">Systems that plan, act, and don't ask twice.</p>
+          <span class="tag">ORCHESTRATION &middot; TOOLS</span>
+        </article>
+
+        <article class="specimen">
+          <span class="specimen-index mono">SPECIMEN&nbsp;04</span>
+          <h3>Automation</h3>
+          <p class="caption-line">Repetition, handled quietly, forever.</p>
+          <span class="tag">WORKFLOWS &middot; PIPELINES</span>
+        </article>
+
+        <article class="specimen">
+          <span class="specimen-index mono">SPECIMEN&nbsp;05</span>
+          <h3>LLMs</h3>
+          <p class="caption-line">Language models that actually listen first.</p>
+          <span class="tag">RAG &middot; FINE-TUNING</span>
+        </article>
+
+        <article class="specimen">
+          <span class="specimen-index mono">SPECIMEN&nbsp;06</span>
+          <h3>Audio Intelligence</h3>
+          <p class="caption-line">Sound, understood and acted on in real time.</p>
+          <span class="tag">SPEECH &middot; TRANSCRIPTION</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="mule" class="manifesto">
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>A mule is a mule &mdash; a mule is always a mule &mdash; <em>Amune is a mule</em> &mdash; </span>
+        <span>A mule is a mule &mdash; a mule is always a mule &mdash; <em>Amune is a mule</em> &mdash; </span>
+      </div>
+    </div>
+    <div class="wrap manifesto-body">
+      <div class="manifesto-grid">
+        <div class="manifesto-copy">
+          <p class="eyebrow"><span class="spark">&#10022;</span>THE&nbsp;PHILOSOPHY</p>
+          <h2 style="font-size:clamp(26px,3.2vw,38px); margin-top:8px;">Why a mule.</h2>
+          <div class="stamp">system: online<br>scan: archived<br>status: irked</div>
+        </div>
+        <div class="manifesto-copy">
+          <p>Every flower has something stranger underneath. Pull back the petals and there's a skeleton, a system, a small stubborn machine doing all the actual work.</p>
+          <p>That's where Amune lives &mdash; not in the pretty AI everyone shows you, but in the weird, <strong>load-bearing problem hiding beneath it.</strong> The mismatch nobody flagged. The pipeline held together by one script and a prayer. The thing that's funny until it breaks at 3AM.</p>
+          <p>We go looking for that. We find the mule under the flower, and we fix it &mdash; then we let it look beautiful again.</p>
+          <p><strong>A mule is a mule. A mule is always a mule. Amune is a mule.</strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="marquee reverse">
+      <div class="marquee-track">
+        <span>A mule is a mule &mdash; a mule is always a mule &mdash; Amune is a mule &mdash; </span>
+        <span>A mule is a mule &mdash; a mule is always a mule &mdash; Amune is a mule &mdash; </span>
+      </div>
+    </div>
+  </section>
+
+  <section id="method">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Method</h2>
+        <p class="eyebrow mono">HOW&nbsp;WE&nbsp;WORK</p>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>No decks, no discovery workshops that go nowhere. Amune runs small: one engineer, tight loops, models shipped into your actual stack instead of a slide labelled "roadmap."</p>
+          <p>Every engagement starts with the same question &mdash; what is this system going to carry, and what happens the day it breaks? Everything after that is just execution.</p>
+          <div class="capability-tags">
+            <span class="tag">WEEKLY SHIP CYCLE</span>
+            <span class="tag">PROJECT OR RETAINER</span>
+            <span class="tag">ACCEPTING WORK</span>
+          </div>
+        </div>
+        <div class="readout">
+          <div class="readout-row"><span>STACK</span><b>PYTORCH / SQL / RAY</b></div>
+          <div class="readout-row"><span>DEPLOY</span><b>DOCKER / K8S</b></div>
+          <div class="readout-row"><span>DELIVERY</span><b>WEEKLY</b></div>
+          <div class="readout-row"><span>ENGAGEMENT</span><b>PROJECT / RETAINER</b></div>
+          <div class="readout-row"><span>STATUS</span><b>OPEN</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <p class="eyebrow"><span class="spark">&#10022;</span>OPEN&nbsp;A&nbsp;CASE&nbsp;FILE</p>
+      <h2>Got a <em>mule</em><br>hiding in<br>there?</h2>
+      <div class="contact-row">
+        <a class="contact-link" href="mailto:transmit@amune.agency">transmit@amune.agency &rarr;</a>
+        <span class="mono eyebrow">RESPONSE&nbsp;WINDOW: 24&ndash;48H</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>A mule is a mule &mdash; a mule is always a mule &mdash; <em>Amune is a mule</em> &mdash; </span>
+      <span>A mule is a mule &mdash; a mule is always a mule &mdash; <em>Amune is a mule</em> &mdash; </span>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; 2026 AMUNE &mdash; ALL WORK LOAD-BEARING</span>
+    <span>FILE CLOSED&nbsp;/&nbsp;AM-8801</span>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
