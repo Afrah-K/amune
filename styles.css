@@ -13,7 +13,7 @@
     --amber:#ffb15a;
     --xray:#8fd8ff;
     --hazard:#ffb400;
-    --font-display:'Monsieur La Doulaise', cursive;
+    --font-display:'Alex Brush', cursive;
     --font-body:'Lora', Georgia, serif;
     --font-mono:'IBM Plex Mono', 'Courier New', monospace;
   }
@@ -107,7 +107,7 @@
     border-bottom:1px solid var(--line);
   }
   .nav-inner{ display:flex; align-items:center; justify-content:space-between; padding:16px 28px; }
-  .wordmark{ font-family:'Monsieur La Doulaise', cursive; font-style:normal; font-weight:400; font-size:34px; }
+  .wordmark{ font-family:'Alex Brush', cursive; font-style:normal; font-weight:400; font-size:34px; }
   .nav-links{ display:flex; gap:26px; font-family:var(--font-mono); font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; }
   .nav-links a{ position:relative; padding-bottom:3px; color:var(--ink-dim); transition:color .15s ease; }
   .nav-links a::after{ content:''; position:absolute; left:0; bottom:0; width:0%; height:1px; background:var(--rose); transition:width .2s ease; }
@@ -179,7 +179,7 @@
   .hero-inner{ padding:64px 0 44px; position:relative; z-index:2; }
   .hero-text{ max-width:640px; }
   .hero h1{
-    font-family:'Monsieur La Doulaise', cursive;
+    font-family:'Alex Brush', cursive;
     font-style:normal;
     font-weight:400;
     font-size:clamp(42px, 6.6vw, 84px);
